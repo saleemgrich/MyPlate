@@ -44,4 +44,4 @@ Unit Tests:
 In Android Studio right click on the test/com/example/buggy directory and click Run 'Tests in 'com.exampl...' or Ctrl+Shift+F10
 
 # Authors
-Saleem Grich sgrich@email.sc.edu
+Saleem Grich saleemagrich@gmail.com
