@@ -17,6 +17,7 @@ import com.example.buggy.data.appdata.DietaryRestrictions
 import com.example.buggy.data.appdata.SavedRecipes
 import com.example.buggy.data.model.FoodItem
 import com.example.buggy.network.FirestoreManager
+import com.example.buggy.util.config
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import kotlinx.coroutines.launch
 
@@ -91,7 +92,7 @@ class RecipesActivity : ComponentActivity() {
         adapter.setDatasetUpdateListener(adapter2)
 
         if (SavedRecipes.suggested_recipes.isEmpty()) {
-            val apiKey = "ea2db2a0cb4946fc98288e25bd98720d"
+            val apiKey = config.api_key
             val diet = DietaryRestrictions.getRestrictionsString()
             val allergy = Allergies.getAllergiesString()
 

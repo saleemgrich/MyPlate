@@ -19,6 +19,7 @@ import com.example.buggy.api.SpoonacularClient
 import com.example.buggy.data.appdata.Allergies
 import com.example.buggy.data.appdata.DietaryRestrictions
 import com.example.buggy.data.model.Recipe
+import com.example.buggy.util.config
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import kotlinx.coroutines.launch
 
@@ -115,7 +116,7 @@ class RecipeSearchActivity : ComponentActivity() {
         recyclerView.layoutManager = layoutManager
         var recipes = listOf<Recipe>()
         recipe_search_button.setOnClickListener {
-            val apiKey = "ea2db2a0cb4946fc98288e25bd98720d"
+            val apiKey = config.api_key
             query = query_text.text.toString()
             diet = DietaryRestrictions.getRestrictionsString()
             allergy = Allergies.getAllergiesString()
