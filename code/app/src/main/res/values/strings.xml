@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyPlate</string>
+    <string name="recipe_image_description">Recipe Image</string>
+    <string name="recipe_name_placeholder">Recipe Name</string>
+    <string name="change_username_button_text">Change Username\n(%s)</string>
+    <string name="change_password_button_text">Change Password\n(%s)</string>
+    <string name="update_email_button_text">Update Email Address\n(%s)</string>
+    <string name="update_phone_button_text">Update Phone Number\n(%s)</string>
+    <string name="login">Login</string>
+    <string name="create_acc">Create Account</string>
+
+</resources>

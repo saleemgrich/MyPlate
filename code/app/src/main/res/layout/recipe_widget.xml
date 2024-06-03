@@ -1,0 +1,63 @@
+<!-- custom_recipe_widget.xml -->
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="4dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:background="@color/white">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginEnd="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:id="@+id/recipe_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/placeholder_image"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/recipe_image_description" />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/recipe_name"
+            android:layout_width="147dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_weight="1"
+            android:text="@string/recipe_name_placeholder"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/save_recipe_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Save Recipe" />
+
+            <Button
+                android:id="@+id/view_recipe_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Recipe" />
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

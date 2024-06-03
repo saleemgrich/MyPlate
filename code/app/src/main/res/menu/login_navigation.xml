@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_item_6"
+        android:title="@string/login"
+        app:actionLayout="@layout/menu_item_layout"/>
+    <item
+        android:id="@+id/menu_item_7"
+        android:title="@string/create_acc"
+        app:actionLayout="@layout/menu_item_layout"/>
+</menu>

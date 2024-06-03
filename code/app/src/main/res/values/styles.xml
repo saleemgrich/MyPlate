@@ -1,0 +1,5 @@
+<resources>
+    <style name="MenuItemTextAppearance" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textSize">40sp</item>
+    </style>
+</resources>

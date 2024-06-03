@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1078045093616",
+    "project_id": "buggy-8faff",
+    "storage_bucket": "buggy-8faff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078045093616:android:40b928b981a3087c5e5c35",
+        "android_client_info": {
+          "package_name": "com.example.buggy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkG-ENfNQRP7XUg3Gi_I2wZeqB_uTL5Vw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
