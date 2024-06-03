@@ -10,11 +10,11 @@ In order to build this project, you first have to install
 
 ## Setup
 
-Clone Repository
+Download .apk in v1.0 release.
 
 ## Running
 
-Press run in Android Studio (LoginActivity.kt).
+Run using emulator.
 
 # Deployment
 
