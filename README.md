@@ -1,6 +1,9 @@
 # MyPlate
 MyPlate is an app designed to help users manage their pantry and create meal plans according to their current dietary needs and inventory. When the app is first started, users will be greeted with a login page unless they are already logged into their account. After creating their account or signing in, users will be greeted with the pantry page. The Pantry page is where users can input their current inventory and update it as needed. The Daily Nutrition page is where users can create meal plans for any given day. The Recipes page is where users can search for and save recipes. Users can save search preferences and dietary restrictions here. The Friends page allows the user to add friends and click on their friends to see their saved recipes. The settings page allows users to change their username, password, email, and phone number. They can also sign out and delete their account from here.
 
+# Demo Video
+https://www.youtube.com/watch?v=opCvrn1geRs
+
 ## External Requirements
 
 In order to build this project, you first have to install
